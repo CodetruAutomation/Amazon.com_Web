@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Amazon Demo Suite" thread-count="10" verbose="1">
+
+	<listeners>
+		<listener class-name="com.codetru.listeners.AnnotationTransformer" />
+	</listeners>
+	<test name="Amazon">
+		<classes>
+			<class name="com.codetru.Demo.Amazon.testcases.A_LoginTest" />
+			<class name="com.codetru.Demo.Amazon.testcases.B_Watch_Test" />
+			<class name="com.codetru.Demo.Amazon.testcases.C_Tumbler_Test" />
+			<class name="com.codetru.Demo.Amazon.testcases.D_Airpods_Test" />
+			<class name="com.codetru.Demo.Amazon.testcases.E_DeleteCart_Test" />
+			<class name="com.codetru.Demo.Amazon.testcases.F_Fail_Test" />
+		</classes>
+	</test>
+	
+</suite>

@@ -1,0 +1,33 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression Tests CMS" thread-count="10" verbose="1">
+
+	<listeners>
+		<listener class-name="com.codetru.listeners.AnnotationTransformer" />
+		
+		  
+	</listeners>
+
+	<test name="CITIZENS REGRESSION TEST With State-GA">
+		<parameter name="BROWSER" value="chrome" />
+		<parameter name="USERID" value="7251602" />
+		<parameter name="PASSWORD" value="RockStar_K8" />
+		 <parameter name="statex" value="GA"/>
+		<classes>
+
+		<!--	<class name="com.codetru.project.cica.testcases.LoginTest" />-->
+			<class name="com.codetru.project.cica.testcaseshealth.HomeTestHealth" />
+			<class name="com.codetru.project.cica.testcaseshealth.Step1_TestHealth" />
+			<class name="com.codetru.project.cica.testcaseshealth.Step2_TestHealth" />
+			<class name="com.codetru.project.cica.testcaseshealth.Step3_TestHealth" />
+			<class name="com.codetru.project.cica.testcaseshealth.Step4_TestHealth" />
+			<class name="com.codetru.project.cica.testcaseshealth.Step5_TestHealth" />
+			<class name="com.codetru.project.cica.testcaseshealth.Step6_TestHealth" />
+			<class name="com.codetru.project.cica.testcaseshealth.Step7_TestHealth" />
+			<class name="com.codetru.project.cica.testcaseshealth.Step8_TestHealth" />
+			<class name="com.codetru.project.cica.testcaseshealth.Step9_TestHealth" />
+	<!--	<class name="com.codetru.project.cica.testcases.Step10_Test" />-->
+			
+		</classes>
+	</test>
+	
+</suite>

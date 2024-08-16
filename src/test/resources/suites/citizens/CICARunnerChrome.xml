@@ -1,0 +1,189 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Regression Tests CMS"  thread-count="10" verbose="1">
+
+	<listeners>
+		<listener class-name="com.codetru.listeners.AnnotationTransformer" />
+		
+		  
+	</listeners>
+
+	<test name="CITIZENS REGRESSION TEST With statex-AL">
+		<parameter name="BROWSER" value="chrome" />
+		<parameter name="USERID" value="7251001" />
+		<parameter name="PASSWORD" value="RockStar_K8" />
+		 <parameter name="statexx" value="AL"/>
+		<classes>
+
+		<!--	<class name="com.codetru.project.cica.testcases.LoginTest" />-->
+			<class name="com.codetru.project.cica.testcases.HomePageTest" />
+			<class name="com.codetru.project.cica.testcases.Step1_Test" />
+			<class name="com.codetru.project.cica.testcases.Step2_Test" />
+			<class name="com.codetru.project.cica.testcases.Step3_Test" />
+			<class name="com.codetru.project.cica.testcases.Step4_Test" />
+			<class name="com.codetru.project.cica.testcases.Step5_Test" />
+			<class name="com.codetru.project.cica.testcases.Step6_Test" />
+			<class name="com.codetru.project.cica.testcases.Step7_Test" />
+			<class name="com.codetru.project.cica.testcases.Step8_Test" />
+			<class name="com.codetru.project.cica.testcases.Step9_Test" />
+			<class name="com.codetru.project.cica.testcases.Step10_Test" />
+			
+		</classes>
+	</test>
+<test name="CITIZENS REGRESSION TEST With statex-AR">
+		<parameter name="BROWSER" value="chrome" />
+		<parameter name="USERID" value="7251001" />
+		<parameter name="PASSWORD" value="RockStar_K8" />
+		<parameter name="statex" value="AR"/>
+		<classes>
+
+	<!--		<class name="com.codetru.project.cica.testcases.LoginTest" /> -->
+			<class name="com.codetru.project.cica.testcases.HomePageTest" />
+			<class name="com.codetru.project.cica.testcases.Step1_Test" />
+			
+			<class name="com.codetru.project.cica.testcases.Step2_Test" />
+			<class name="com.codetru.project.cica.testcases.Step3_Test" />
+			<class name="com.codetru.project.cica.testcases.Step4_Test" />
+			<class name="com.codetru.project.cica.testcases.Step5_Test" />
+			<class name="com.codetru.project.cica.testcases.Step6_Test" />
+			<class name="com.codetru.project.cica.testcases.Step7_Test" />
+			<class name="com.codetru.project.cica.testcases.Step8_Test" />
+			<class name="com.codetru.project.cica.testcases.Step9_Test" />
+			<class name="com.codetru.project.cica.testcases.Step10_Test" />
+			
+		</classes>
+	</test>
+	<test name="CITIZENS REGRESSION TEST With statex-GE">
+		<parameter name="BROWSER" value="chrome" />
+		<parameter name="USERID" value="7251001" />
+		<parameter name="PASSWORD" value="RockStar_K8" />
+		<parameter name="statex" value="GE"/>
+		<classes>
+
+	<!--		<class name="com.codetru.project.cica.testcases.LoginTest" /> -->
+			<class name="com.codetru.project.cica.testcases.HomePageTest" />
+			<class name="com.codetru.project.cica.testcases.Step1_Test" />
+			<class name="com.codetru.project.cica.testcases.Step2_Test" />
+			<class name="com.codetru.project.cica.testcases.Step3_Test" />
+			<class name="com.codetru.project.cica.testcases.Step4_Test" />
+			<class name="com.codetru.project.cica.testcases.Step5_Test" />
+			<class name="com.codetru.project.cica.testcases.Step6_Test" />
+			<class name="com.codetru.project.cica.testcases.Step7_Test" />
+			<class name="com.codetru.project.cica.testcases.Step8_Test" />
+			<class name="com.codetru.project.cica.testcases.Step9_Test" />
+			<class name="com.codetru.project.cica.testcases.Step10_Test" />
+			
+		</classes>
+	</test>
+	<test name="CITIZENS REGRESSION TEST With statex-KE ">
+		<parameter name="BROWSER" value="chrome" />
+		<parameter name="USERID" value="7251001" />
+		<parameter name="PASSWORD" value="RockStar_K8" />
+		<parameter name="statex" value="KE"/>
+		<classes>
+
+	<!--		<class name="com.codetru.project.cica.testcases.LoginTest" /> -->
+			<class name="com.codetru.project.cica.testcases.HomePageTest" />
+			<class name="com.codetru.project.cica.testcases.Step1_Test" />
+			<class name="com.codetru.project.cica.testcases.Step2_Test" />
+			<class name="com.codetru.project.cica.testcases.Step3_Test" />
+			<class name="com.codetru.project.cica.testcases.Step4_Test" />
+			<class name="com.codetru.project.cica.testcases.Step5_Test" />
+			<class name="com.codetru.project.cica.testcases.Step6_Test" />
+			<class name="com.codetru.project.cica.testcases.Step7_Test" />
+			<class name="com.codetru.project.cica.testcases.Step8_Test" />
+			<class name="com.codetru.project.cica.testcases.Step9_Test" />
+			<class name="com.codetru.project.cica.testcases.Step10_Test" />
+			
+		</classes>
+	</test>
+	<test name="CITIZENS REGRESSION TEST With statex-LO">
+		<parameter name="BROWSER" value="chrome" />
+		<parameter name="USERID" value="7251001" />
+		<parameter name="PASSWORD" value="RockStar_K8" />
+		<parameter name="statex" value="LO"/>
+		<classes>
+
+	<!--		<class name="com.codetru.project.cica.testcases.LoginTest" /> -->
+			<class name="com.codetru.project.cica.testcases.HomePageTest" />
+			<class name="com.codetru.project.cica.testcases.Step1_Test" />
+			<class name="com.codetru.project.cica.testcases.Step2_Test" />
+			<class name="com.codetru.project.cica.testcases.Step3_Test" />
+			<class name="com.codetru.project.cica.testcases.Step4_Test" />
+			<class name="com.codetru.project.cica.testcases.Step5_Test" />
+			<class name="com.codetru.project.cica.testcases.Step6_Test" />
+			<class name="com.codetru.project.cica.testcases.Step7_Test" />
+			<class name="com.codetru.project.cica.testcases.Step8_Test" />
+			<class name="com.codetru.project.cica.testcases.Step9_Test" />
+			<class name="com.codetru.project.cica.testcases.Step10_Test" />
+			
+		</classes>
+	</test>
+	<test name="CITIZENS REGRESSION TEST With statex-TX">
+		<parameter name="BROWSER" value="chrome" />
+		<parameter name="USERID" value="7251001" />
+		<parameter name="PASSWORD" value="RockStar_K8" />
+		<parameter name="statex" value="TX"/>
+		<classes>
+
+	<!--		<class name="com.codetru.project.cica.testcases.LoginTest" /> -->
+			<class name="com.codetru.project.cica.testcases.HomePageTest" />
+			<class name="com.codetru.project.cica.testcases.Step1_Test" />
+			<class name="com.codetru.project.cica.testcases.Step2_Test" />
+			<class name="com.codetru.project.cica.testcases.Step3_Test" />
+			<class name="com.codetru.project.cica.testcases.Step4_Test" />
+			<class name="com.codetru.project.cica.testcases.Step5_Test" />
+			<class name="com.codetru.project.cica.testcases.Step6_Test" />
+			<class name="com.codetru.project.cica.testcases.Step7_Test" />
+			<class name="com.codetru.project.cica.testcases.Step8_Test" />
+			<class name="com.codetru.project.cica.testcases.Step9_Test" />
+			<class name="com.codetru.project.cica.testcases.Step10_Test" />
+			
+		</classes>
+	</test>
+	<test name="CITIZENS REGRESSION TEST With statex-UT">
+		<parameter name="BROWSER" value="chrome" />
+		<parameter name="USERID" value="7251001" />
+		<parameter name="PASSWORD" value="RockStar_K8" />
+		<parameter name="statex" value="UT"/>
+		<classes>
+
+	<!--		<class name="com.codetru.project.cica.testcases.LoginTest" /> -->
+			<class name="com.codetru.project.cica.testcases.HomePageTest" />
+			<class name="com.codetru.project.cica.testcases.Step1_Test" />
+			<class name="com.codetru.project.cica.testcases.Step2_Test" />
+			<class name="com.codetru.project.cica.testcases.Step3_Test" />
+			<class name="com.codetru.project.cica.testcases.Step4_Test" />
+			<class name="com.codetru.project.cica.testcases.Step5_Test" />
+			<class name="com.codetru.project.cica.testcases.Step6_Test" />
+			<class name="com.codetru.project.cica.testcases.Step7_Test" />
+			<class name="com.codetru.project.cica.testcases.Step8_Test" />
+			<class name="com.codetru.project.cica.testcases.Step9_Test" />
+			<class name="com.codetru.project.cica.testcases.Step10_Test" />
+			
+		</classes>
+	</test>
+	<test name="CITIZENS REGRESSION TEST With statex-OK">
+		<parameter name="BROWSER" value="chrome" />
+		<parameter name="USERID" value="7251001" />
+		<parameter name="PASSWORD" value="RockStar_K8" />
+		<parameter name="statex" value="OK"/>
+		<classes>
+
+	<!--		<class name="com.codetru.project.cica.testcases.LoginTest" /> -->
+			<class name="com.codetru.project.cica.testcases.HomePageTest" />
+			<class name="com.codetru.project.cica.testcases.Step1_Test" />
+			<class name="com.codetru.project.cica.testcases.Step2_Test" />
+			<class name="com.codetru.project.cica.testcases.Step3_Test" />
+			<class name="com.codetru.project.cica.testcases.Step4_Test" />
+			<class name="com.codetru.project.cica.testcases.Step5_Test" />
+			<class name="com.codetru.project.cica.testcases.Step6_Test" />
+			<class name="com.codetru.project.cica.testcases.Step7_Test" />
+			<class name="com.codetru.project.cica.testcases.Step8_Test" />
+			<class name="com.codetru.project.cica.testcases.Step9_Test" />
+			<class name="com.codetru.project.cica.testcases.Step10_Test" />
+			
+		</classes>
+	</test>
+	
+</suite>
