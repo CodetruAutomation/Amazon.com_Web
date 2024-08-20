@@ -9,7 +9,7 @@ import com.codetru.common.BaseTest;
 public class F_Fail_Test extends BaseTest {
 	@JiraCreateIssue(isCreateIssue=	true)
 	 @Test
-    public void TC_Delete_Items_From_the_Cart() throws Exception {
+    public void TC_Failed_test() throws Exception {
         ExcelHelpers excel = new ExcelHelpers();
         excel.setExcelFile(FrameworkConstants.EXCEL_CMS_LOGIN, "Login");
         

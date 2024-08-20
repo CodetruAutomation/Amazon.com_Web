@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Amazon Demo Suite" thread-count="10" verbose="1">
+<suite name="Amazon Demo Suite" verbose="1">
 
 	<listeners>
 		<listener class-name="com.codetru.listeners.AnnotationTransformer" />
